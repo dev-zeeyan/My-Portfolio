@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Press+Start+2P&family=Zen+Dots&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <div class="left">
+            <a href="/">Faique Zeeyan</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/settings/profile" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="https://youtube.com/@dev_zeeyan?si=G4csAXQYKxhZFA9j" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-youtube"></i>
+                <span>Youtube</span>
+                <a href="https://discord.com/invite/5bvv9zTTP" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-discord"></i>
+                    <span>Discord</span>
+                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>Linkedin</span>
+
+
+                    </a>
+
+                </a>
+                <a href="mailto:faiquezeeyan@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+
+
+
+        </div>
+    </nav>
+    <main>
+        <!-- Section 1 - Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Zeeyan 👋</h2>
+                <p>I am a software developer and a student with a strong interest in building modern web applications. I
+                    have experience working with technologies like HTML, CSS, JavaScript, React, and Node.js. I am
+                    currently focused on improving my skills and actively seeking internship opportunities to gain
+                    real-world experience and grow professionally.I am also passionate about learning new technologies
+                    and improving my problem-solving skills through hands-on projects. I enjoy working on both frontend
+                    and backend development and building responsive, user-friendly websites.
+
+                </p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#testimony">
+                        <i class="fa-solid fa-info"></i>
+                        <span>Testimony</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-headset"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="headshot">
+                <img src="main.jpg.jpeg" alt="Zeeyan">
+            </div>
+        </section>
+        <!-- Section 2 - Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I have skills in web development including HTML, CSS, JavaScript, React, and Node.js. I can build
+                responsive and interactive user interfaces as well as develop basic backend services. I am familiar with
+                version control using Git and enjoy working on full-stack projects that improve my understanding of
+                real-world development workflows.
+
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="javascript-logo.webp" alt="javascript logo">
+                    <span>JavaScript</span>
+                </div>
+                <div class="cell">
+                    <img src="node-logo.webp" alt="node logo">
+                    <span>Node.js</span>
+                </div>
+                <div class="cell">
+                    <img src="react-logo.webp" alt="react logo">
+                    <span>React.js</span>
+                </div>
+
+            </div>
+        </section>
+        <!-- Section 3 - Testimony -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+
+
+                <div class="person-details">
+                    <img src="testimony2.jpg" alt="Faique Zeeyan">
+                    <p>Faique Zeeyan Halder</p>
+                    <p>(Software Developer)</p>
+                </div>
+                <div class="text">
+                    He is a dedicated and hardworking software developer with strong skills in HTML, CSS, JavaScript,
+                    React, and Node.js. He consistently delivers quality work and shows great attention to detail. As a
+                    student, he is highly motivated, eager to learn, and actively seeks opportunities to gain real-world
+                    experience through internships.
+
+                </div>
+        </section>
+        <!-- Section 4 - Contact us -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    You can contact me via email or through my social media profiles for any queries, collaboration, or
+                    internship opportunities. I am always open to discussing new projects and ideas. Feel free to ask
+                    anything, whether it’s about my work, skills, or availability. I will respond as soon as possible.
+
+                </div>
+                <form action="https://formspree.io/f/xkolzjvl" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>Passionate Software Developer | Building modern, responsive, and user-friendly web applications | &copy;
+                2026 Faique Zeeyan Halder . All Rights Reserved.</p>
+
+            <div class="social-links">
+                <a href="https://github.com/dev-zeeyan" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://youtube.com/@dev_zeeyan?si=lfHNz2irauWcMpjL" target="_blank">
+                    <i class="fa-brands fa-youtube"></i></a>
+                <a href="https://discord.com/invite/5bvv9zTTP" target="_blank">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+
+                    <a href="https://docs.google.com/document/d/1Z7vOqIth4AgquwAYvvBNO9JuNy8tLUeL/edit?usp=sharing&ouid=105141047410822538333&rtpof=true&sd=true"
+                        download>
+                        <i class="fa-regular fa-file"></i>
+                        <a href="mailto:faiquezeeyan@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+
+                            <!-- Resume icon -->
+
+                        </a>
+                    </a>
+
+
+
+
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
