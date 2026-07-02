@@ -355,6 +355,32 @@ nav .right a span {
         padding: 0 20px;
 
     }
+/* added */
+
+nav {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+nav .right a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+nav .right a span {
+    display: none;
+}
 
 }
 
@@ -408,4 +434,12 @@ nav .right a {
 
 nav .right a:hover {
     transform: translateY(-4px);
+}
+
+nav .left {
+    flex: 1;
+}
+
+nav .right {
+    flex-shrink: 0;
 }
